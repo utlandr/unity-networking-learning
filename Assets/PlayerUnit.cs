@@ -27,8 +27,11 @@ public class PlayerUnit : NetworkBehaviour
         if( Input.GetKeyDown(KeyCode.Space) )
         {
             this.transform.Translate(0, 1, 0);
+        }
 
-            
+        if( Input.GetKeyDown(KeyCode.D) )
+        {
+            Destroy(gameObject);
         }
     }
 }
