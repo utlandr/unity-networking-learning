@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8193173453404299914}
   - component: {fileID: 7416811343716858399}
-  - component: {fileID: 5681669215880509963}
+  - component: {fileID: -3247965752823584003}
   m_Layer: 0
-  m_Name: PlayerObject
+  m_Name: PlayerConnectionObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
     i15: 0
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
---- !u!114 &5681669215880509963
+--- !u!114 &-3247965752823584003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
